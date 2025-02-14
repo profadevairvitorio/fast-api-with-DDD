@@ -8,7 +8,7 @@ class Student(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     name = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
-    languages = Column(String, nullable=False)  # Armazenado como string separada por vírgulas
+    languages = Column(String, nullable=False)
     city = Column(String, nullable=False)
     state = Column(String, nullable=False)
 
